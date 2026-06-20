@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Risman</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="#home" class="logo"><span>Risman</span></a>
+
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="theme-btn">
+        <i class="fa-solid fa-moon"></i>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Halo, Saya</h3>
+        <h1>RISMAN</h1>
+        <h2>Mahasiswa <span>Teknik Informatika</span></h2>
+
+        <div class="line"></div>
+
+        <p>
+          Saya seorang mahasiswa yang memiliki minat besar di bidang
+          pengembangan web dan saya suka belajar hal baru serta membuat solusi
+          digital yang bermanfaat.
+        </p>
+
+        <div class="btn-group">
+          <a href="#portfolio" class="btn primary">Lihat Portofolio</a>
+          <a href="#contact" class="btn secondary">Hubungi Saya</a>
+        </div>
+
+        <div class="social">
+          <p>Temukan saya di</p>
+
+          <div class="icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-image">
+        <img src="img/foto1.jpeg" alt="foto Risman" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/foto1.jpeg" alt="About Risman" />
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <h3>Halo! Saya Risman</h3>
+
+        <p>
+          Saya adalah mahasiswa Teknik Informatika yang memiliki minat besar
+          dalam pengembangan web dan teknologi digital. Saya senang mempelajari
+          hal-hal baru dan terus mengembangkan kemampuan di bidang pemrograman.
+        </p>
+
+        <p>
+          Saat ini saya fokus mempelajari Front-End Development, Back-End
+          Development, serta Database Management untuk menjadi seorang software
+          developer yang profesional dan mampu menciptakan solusi digital yang
+          bermanfaat.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+      <div class="skills-header">
+        <span>• KEAHLIAN SAYA</span>
+        <h2>Skills</h2>
+        <p>
+          Berikut adalah beberapa keterampilan teknis dan non-teknis yang saya
+          miliki dan terus kembangkan.
+        </p>
+      </div>
+
+      <!-- Technical Skills -->
+      <div class="section-title">
+        <i class="fas fa-code"></i>
+        <h3>Technical Skills</h3>
+      </div>
+
+      <div class="technical-container">
+        <div class="skill-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+            alt="HTML"
+          />
+          <h4>HTML</h4>
+          <div class="progress-bar">
+            <span style="width: 50%">50%</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
+            alt="CSS"
+          />
+          <h4>CSS</h4>
+          <div class="progress-bar">
+            <span style="width: 50%">50%</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+            alt="JavaScript"
+          />
+          <h4>JavaScript</h4>
+          <div class="progress-bar">
+            <span style="width: 50%">50%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="section-title soft-title">
+        <i class="fas fa-user"></i>
+        <h3>Soft Skills</h3>
+      </div>
+
+      <div class="soft-container">
+        <div class="soft-card">
+          <i class="fas fa-comments"></i>
+          <h4>Communication</h4>
+          <p>Dapat berkomunikasi dengan baik secara lisan maupun tulisan.</p>
+        </div>
+
+        <div class="soft-card">
+          <i class="fas fa-lightbulb"></i>
+          <h4>Problem Solving</h4>
+          <p>Mampu menganalisis masalah dan menemukan solusi terbaik.</p>
+        </div>
+
+        <div class="soft-card">
+          <i class="fas fa-clock"></i>
+          <h4>Time Management</h4>
+          <p>Mampu mengatur waktu secara efektif dan efisien.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-header">
+        <span>• PORTOFOLIO SAYA</span>
+        <h2>Portofolio</h2>
+        <p>
+          Berikut adalah beberapa proyek yang saya buat menggunakan HTML, CSS,
+          dan JavaScript.
+        </p>
+      </div>
+
+      <div class="portfolio-filter">
+        <button class="active">Semua</button>
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>JavaScript</button>
+      </div>
+
+      <div class="portfolio-container">
+        <div class="portfolio-card">
+          <img src="img/foto2.png" alt="Project" />
+
+          <div class="portfolio-content">
+            <span>HTML</span>
+            <h3>Portfolio Website</h3>
+
+            <p>
+              Website portfolio sederhana dengan beberapa halaman seperti home,
+              about, skills, portfolio, dan contact.
+            </p>
+
+            <div class="portfolio-btn">
+              <a href="#">
+                <i class="fa-solid fa-desktop"></i>
+                Lihat Website
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-github"></i>
+                Lihat Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-header">
+        <span>• HUBUNGI SAYA</span>
+        <h2>Contact Me</h2>
+
+        <p>
+          Punya pertanyaan, ingin berdiskusi, atau tertarik bekerja sama?
+          Silakan hubungi saya melalui form atau informasi di bawah ini.
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <!-- Informasi Kontak -->
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>risman2345!@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+62 895403347588</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-location-dot"></i>
+            <div>
+              <h4>Lokasi</h4>
+              <p>
+                Jl. Inpres Kampung Bulak No.54, Benda Baru, Pamulang, Kota
+                Tangerang Selatan, Banten
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form">
+          <input type="text" placeholder="Nama Anda" />
+          <input type="email" placeholder="Email Anda" />
+          <input type="text" placeholder="Subjek" />
+          <textarea
+            rows="6"
+            placeholder="Tulis pesan Anda di sini..."
+          ></textarea>
+          <button>Kirim Pesan</button>
+        </div>
+      </div>
+
+      <div class="contact-bottom">
+        <div class="quote">
+          <i class="fas fa-quote-left"></i>
+          <p>
+            "Terima kasih telah mengunjungi website saya. Saya sangat terbuka
+            untuk peluang baru dan kolaborasi menarik!"
+          </p>
+        </div>
+
+        <div class="contact-social">
+          <span>Temukan saya di:</span>
+
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
